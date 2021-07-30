@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Kategori</title>
+    <link rel="stylesheet" href="./popup.css" />
+    <script defer src="./popup.js"></script>
+  </head>
+  <body>
+    <button data-modal-target="#modal">Lihat Kategori</button>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Kategori List</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="news">
+          <h4>Judul 1 <span class="category">Kategori 1</span></h4>
+          <div class="detail-news">Isi berita 1</div>
+          <button class="show-category">Lihat Kategori</button>
+        </div>
+        <div class="news">
+          <h4>Judul 2 <span class="category">Kategori 2</span></h4>
+          <div class="detail-news">Isi berita 2</div>
+          <button class="show-category">Lihat Kategori</button>
+        </div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+  </body>
+</html>
